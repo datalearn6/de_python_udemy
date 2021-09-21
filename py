@@ -1,0 +1,1 @@
+{'logging': {'version': 1, 'formatters': {'xetra': {'format': 'Xetra Trasformer - %(asctime)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandlers', 'formatter': 'xetra', 'level': 'DEBUG'}}, 'root': {'level': 'DEBUG', 'handlers': ['console']}}}
